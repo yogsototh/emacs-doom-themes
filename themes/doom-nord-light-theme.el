@@ -179,6 +179,7 @@ determine the exact padding."
    (nav-flash-face :background region :foreground base8 :weight 'bold)
    ;; org-mode
    (org-hide :foreground hidden)
+   (org-drawer :inherit 'font-lock-function-name-face)
    (solaire-org-hide-face :foreground hidden))
 
 
